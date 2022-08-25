@@ -1,3 +1,5 @@
+ARCH=amd64
+
 unzip ./novnc1.3.0.zip
 sudo apt update 
 sudo apt install -y   gcc  fonts-wqy-zenhei firefox  xorg xfce4  xterm xfce4-terminal
