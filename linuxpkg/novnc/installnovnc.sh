@@ -1,4 +1,5 @@
-!ARCH=amd64
+!/bin/bash
+ARCH=amd64
 
 unzip ./novnc1.3.0.zip
 sudo apt update 
