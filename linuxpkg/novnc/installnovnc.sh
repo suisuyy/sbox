@@ -1,4 +1,6 @@
-!/bin/bash
+#!/bin/bash
+
+
 ARCH=amd64
 
 unzip ./novnc1.3.0.zip
