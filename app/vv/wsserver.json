@@ -2,14 +2,14 @@
     "inbounds": [
         {
             "port": 80,
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "b831381d-6324-4d53-ad4f-8cda48b30822"
+                        "id": "b831381d-6324-4d53-ad4f-8cda48b30822",
+                        "alterId": 64
                     }
-                ],
-                "decryption":"none"
+                ]
             },
             "streamSettings": {
                 "network": "ws",

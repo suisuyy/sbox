@@ -1,0 +1,3 @@
+awsg.suisuy.eu.org:4444
+
+reverse_proxy localhost:8000

@@ -1,0 +1,13 @@
+[Unit]
+Description=V2Ray Service
+Documentation=https://www.v2fly.org/
+After=network.target
+
+[Service]
+User=root
+ExecStart=/home/ubuntu/project/sbox/app/vv/runserver.sh
+Restart=on-failure
+RestartPreventExitStatus=23
+
+[Install]
+WantedBy=multi-user.target
