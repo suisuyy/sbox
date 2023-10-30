@@ -1,0 +1,41 @@
+{
+    "inbounds": [
+        {
+            "port": 80,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "b831381d-6324-4d53-ad4f-8cda48b30822",
+                        "level": 0,
+                        "email": "love@example.com"
+                    }
+                ],
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "dest": 80
+                    },
+                    {
+                        "path": "/testvv",
+                        "dest": 1234,
+                        "xver": 1
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "none",
+                "wsSettings": {
+                    "path": "/testvv"
+                    
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
