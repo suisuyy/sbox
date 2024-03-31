@@ -1,5 +1,5 @@
 
-#  curl -s   https://raw.githubusercontent.com/suisuyy/sbox/master/test/keepalive.sh | bash 3 
+#  curl -s   https://raw.githubusercontent.com/suisuyy/sbox/master/test/keepalive.sh | bash 
 
 # Loop through the URLs indefinitely
 while true
