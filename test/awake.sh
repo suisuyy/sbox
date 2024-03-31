@@ -4,6 +4,7 @@ urls=(
   "https://devilent-alistn.hf.space/"
   "https://devilent-codeserver4.hf.space"
   "https://devilent-testvv.hf.space"
+  "https://devilent-testvv2.hf.space"
   "https://studious-halibut-9jgx5qvwj4rh9pr7.github.dev/"
 )
 
@@ -11,6 +12,7 @@ urls=(
   for url in "${urls[@]}"
   do
     echo "Sending request to $url"
+    sleep 1
     curl  --max-time 10 "$url" >/dev/null
     echo $?
   done
